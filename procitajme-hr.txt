@@ -1,0 +1,27 @@
+VIDEO EMBED INFO:
+Možete ugraditi ovo sa nekim embed code slican onome koji koriste YouTube 
+ili možete koristiti SWFObject (kao što vidite na preuzetoj datoteki)
+Postoje 3 flash varijable koje možete poslati
+playlist = mjesto ime XML Playlist (bez. xml na kraju)
+autoplay = true ili false(upali ili ugasi)
+rollover_changing_thumbs = true ili false (u slucaju da želite na slicice za promjenu)
+
+
+XML STRUKTURA:
+Kao što možete vidjeti, XML struktura je vrlo jednostavna
+Kada želite dodati novi YouTube video trebate samo dodati cvor pod nazivom 
+"Naslv", cvor pod nazivom "ID Video" i cvor pod nazivom "Informacije-Opis ukoliko zelite"
+Ovdje imate primjer:
+<track>
+    <title> Ime YouTube Video </ title>
+    <youtube> YOUTUBE_ID </ youtube>
+    <details> Opis (podržava HTML tekst sa CDATA) </ detaljnije>
+</ track>
+
+
+INFORMACIJE O FLASH FILE:
+Možete otvoriti FLA file sa Flash 8 (8 +)
+ActionScript 2,0 kôd je komentirao u nekim dijelovima, ali to nije tako lako razumjeti ako nemate toliko iskustva.
+
+
+Uživajte!
